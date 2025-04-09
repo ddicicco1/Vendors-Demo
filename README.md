@@ -1,6 +1,6 @@
-# Goose Project
+# Vendors Demo
 
-This is a new project created with Goose AI assistance.
+This is a demo project for vendor-related functionality.
 
 ## Getting Started
 
