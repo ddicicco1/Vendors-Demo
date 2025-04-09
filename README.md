@@ -8,6 +8,7 @@ A Streamlit-based application for managing vendor price sheets and generating or
 - Upload price sheets (CSV format) for each vendor
 - Generate combined order guides
 - Interactive view with searching, filtering, and sorting capabilities
+- Cloud deployment ready
 
 ## Getting Started
 
@@ -30,7 +31,7 @@ streamlit run src/app.py
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.9+
 - Streamlit
 - Pandas
 - Streamlit-AgGrid
@@ -42,5 +43,11 @@ vendors-demo/
 ├── src/
 │   └── app.py          # Main application file
 ├── requirements.txt    # Project dependencies
+├── runtime.txt        # Python version specification
 └── README.md          # Project documentation
 ```
+
+## Deployment
+
+This application is configured for deployment on Streamlit Cloud. Visit the deployed version at:
+[Vendors Demo App](https://streamlit.io/cloud) (URL will be updated after deployment)
